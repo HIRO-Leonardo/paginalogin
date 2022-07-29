@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    background-image: url("/imgs/fundo2.jpg");
+}
+
+.container {
+    text-align: center;
+
+
+}
+
+.container img {
+    width: 240px;
+}
+
+.icone {
+    border: solid 1px red;
+    border-radius: 5px;
+    background-color: gray;
+    width: 37px;
+}
+
+.estado {
+    display: flex;
+    padding: 15px;
+
+}
+
+.estados {
+    width: 300px;
+}
+
+.user {
+    display: flex;
+    padding: 15px;
+}
+
+.cpf {
+    width: 304px;
+}
+
+.senha {
+    display: flex;
+    padding: 15px;
+}
+
+.senhas {
+    width: 304px;
+}
+
+.formulario {
+    width: 370px;
+    height: 470px;
+    
+    border-radius: 10px;
+    margin: 0px 0px 40px 470px;
+    background-color: rgb(253, 242, 242);
+    box-shadow: 10px 10px 10px 10px ;
+}
+
+.envio{
+    width: 13px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    
+    padding: 15px;
+    margin: 15px 15px 15px 36px;
+}
+h2{
+    text-align: center;
+   
+}
+p{
+    text-align: center;
+    background-color: rgb(72, 255, 0);
+    height: 30px;
+    padding: 7px;
+    
+}
+.title{
+    background-color: rgb(87, 87, 255);
+    height: 70px;
+    padding: 7px;
+    
+}
+footer{
+    background-color: rgb(255, 154, 154);
+    display: flex;
+    flex-direction: row;
+    
+}
+h5{
+    color: white;
+    padding: 10px;
+}
+
+.linkedin{
+    width: 6%;  
+    padding: 10px;  
+}
+.git{
+    width: 6%;
+    padding: 10px;  
+}
+
+
+@media(max-width: 648px){
+    .formulario {
+        width: 355px;
+        height: 477px;
+        
+        border-radius: 10px;
+        margin: 0px 20px 30px 20px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 10px 10px 10px ;
+    }
+    .linkedin{
+        width: 14%;  
+        padding: 10px;  
+    }
+    .git{
+        width: 14%; 
+        padding: 10px;  
+    }
+    .login{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        
+        padding: 15px;
+        margin: 15px 15px 15px 30px;
+    }
+}
+
+
+@media screen and (min-width: 649px) and (max-width: 800px) {
+    
+
+    .formulario {
+        width: 370px;
+        height: 470px;
+        
+        border-radius: 10px;
+        margin: 10px 0px 80px 14px;
+        background-color: rgb(58, 17, 17);
+        box-shadow: 10px 10px 10px 10px ;
+    }
+    .linkedin{
+        width: 10%;  
+        padding: 11px;  
+    }
+    .git{
+        width: 10%; 
+        padding: 11px;  
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1060px) {
+    
+
+    .formulario {
+        width: 370px;
+        height: 470px;
+        
+        border-radius: 10px;
+        margin: 10px 100px 25px 180px;
+        background-color: rgb(87, 82, 82);
+        box-shadow: 10px 10px 10px 10px ;
+    }
+    .linkedin{
+        width: 10%;  
+        padding: 11px;  
+    }
+    .git{
+        width: 10%; 
+        padding: 11px;  
+    }
+    .container img {
+        
+        width: 240px;
+        padding: 0px 70px 0px 40px;
+    }
+    
+}
+
+
+
